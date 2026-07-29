@@ -1,7 +1,9 @@
 encapsulation
 inheritance
+compile-time-polymorphism
 
 /encapsulation.dSYM
 /inheritance.dSYM
+/compile-time-polymorphism.dSYM
 
 /.vscode
