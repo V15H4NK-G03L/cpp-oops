@@ -47,6 +47,12 @@ class Complex {
         temp.imag = this->imag + B.imag;
         return temp;
     }
+
+    int operator+(const int &D){
+        int ans;
+        ans = this->real + D;
+        return ans;
+    }
 };
 
 int main() {
@@ -63,6 +69,9 @@ int main() {
     B.print();
     Complex C = A + B;
     C.print();
+
+    int D = A + 5;
+    cout << "Answer of D: " << D << endl;
 
     return 0;
 }
